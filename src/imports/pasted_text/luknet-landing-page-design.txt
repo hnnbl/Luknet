@@ -1,0 +1,157 @@
+Crie um **design de Landing Page premium e futurista no Figma** para uma empresa de tecnologia chamada **Luknet – Soluções Web**.
+
+A empresa desenvolve **sites profissionais, sistemas web e soluções digitais para empresas**.
+
+O design deve ter qualidade visual comparável a grandes empresas de tecnologia, inspirado em interfaces modernas usadas por empresas como Apple, Stripe e Vercel.
+
+Estilo visual:
+
+* moderno
+* minimalista
+* tecnológico
+* sofisticado
+* aparência de startup global
+
+Use bastante **espaço em branco, hierarquia visual clara e tipografia elegante**.
+
+Paleta de cores baseada na imagem de referência:
+
+* fundo azul escuro profundo
+* gradientes em azul e roxo
+* destaques luminosos em laranja
+* glow effects sutis
+
+Tipografia:
+
+* Inter ou Poppins
+* títulos grandes e impactantes
+* boa leitura e espaçamento confortável
+
+Estrutura da landing page:
+
+1. Header
+
+Barra superior minimalista com:
+
+Logo Luknet
+
+Menu de navegação:
+
+Home
+Serviços
+Notícias
+Contato
+
+Navbar transparente sobre o hero.
+
+2. Hero Section
+
+Seção principal com grande impacto visual.
+
+Elemento visual:
+
+Uma **lâmpada digital com conexões tecnológicas luminosas**, representando inovação e ideias.
+
+Título grande:
+
+Soluções Web Inteligentes
+
+Subtítulo:
+
+Criamos páginas e sistemas web estruturados conforme o perfil do seu negócio.
+
+Botões:
+
+Solicitar Orçamento
+Conhecer Serviços
+
+Adicionar abaixo:
+
+Sites modernos
+Alta performance
+Tecnologia segura
+
+3. Seção Serviços
+
+Título:
+
+Serviços
+
+Criar 4 cards modernos com ícones:
+
+Suporte
+Bem Documentado
+Tempo de Resposta
+Segurança da Web
+
+Cards com sombra suave e hover moderno.
+
+4. Seção Diferenciais
+
+Título:
+
+Por que escolher a Luknet
+
+Mostrar 4 diferenciais:
+
+Desenvolvimento moderno
+Sites rápidos e responsivos
+Infraestrutura segura
+Suporte técnico especializado
+
+Layout com ícones minimalistas.
+
+5. Seção Notícias
+
+Título:
+
+Últimas Notícias
+
+Criar 3 cards contendo:
+
+data
+título
+resumo
+botão Leia mais
+
+Layout em grid.
+
+6. Seção Contato
+
+Layout em duas colunas.
+
+Formulário:
+
+Nome
+Email
+Assunto
+Mensagem
+
+Botão Enviar.
+
+Informações da empresa:
+
+Eduardo Souza – Luknet
+Trav Timbó
+Belém – PA
+
+Telefone: (91) 99192-0911
+Email: [contato@luknet.com.br](mailto:contato@luknet.com.br)
+
+7. Footer
+
+Rodapé minimalista com fundo escuro contendo:
+
+links rápidos
+ícones de redes sociais
+copyright Luknet
+
+Detalhes de design:
+
+* grid bem organizado
+* espaçamento consistente
+* design responsivo
+* visual tecnológico moderno
+* aparência premium
+
+Criar o layout otimizado para **desktop e mobile**.
