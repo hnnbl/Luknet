@@ -40,13 +40,13 @@
 
 - [ ] **SECT-01**: Seção de Notícias/Blog redesenhada com estilo dark
 - [ ] **SECT-02**: Seção de Contato redesenhada com estilo dark e futurista
-- [ ] **SECT-03**: Footer redesenhado com estilo dark e coerente
-- [ ] **SECT-04**: Animações de entrada no scroll em todas as seções
+- [x] **SECT-03**: Footer redesenhado com estilo dark e coerente
+- [x] **SECT-04**: Animações de entrada no scroll em todas as seções
 
 ### Typography & Copy
 
 - [x] **COPY-01**: Tipografia bold e headlines de impacto em toda a página
-- [ ] **COPY-02**: Textos de todas as seções revisados e atualizados
+- [x] **COPY-02**: Textos de todas as seções revisados e atualizados
 
 ## v2 Requirements
 
@@ -91,9 +91,9 @@
 | DIFF-03 | Phase 3 | Complete |
 | SECT-01 | Phase 4 | Pending |
 | SECT-02 | Phase 4 | Pending |
-| SECT-03 | Phase 4 | Pending |
-| SECT-04 | Phase 4 | Pending |
-| COPY-02 | Phase 4 | Pending |
+| SECT-03 | Phase 4 | Complete |
+| SECT-04 | Phase 4 | Complete |
+| COPY-02 | Phase 4 | Complete |
 
 **Coverage:**
 - v1 requirements: 22 total
