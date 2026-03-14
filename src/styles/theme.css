@@ -24,6 +24,7 @@
   --switch-background: #2d1a6e;
   --font-weight-medium: 500;
   --font-weight-normal: 400;
+  --font-weight-bold: 700;
   --ring: rgba(124, 58, 237, 0.5);
   --chart-1: #7c3aed;
   --chart-2: #a78bfa;
@@ -110,19 +111,19 @@
 
   h1 {
     font-size: var(--text-2xl);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-bold);
     line-height: 1.5;
   }
 
   h2 {
     font-size: var(--text-xl);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-bold);
     line-height: 1.5;
   }
 
   h3 {
     font-size: var(--text-lg);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-bold);
     line-height: 1.5;
   }
 
