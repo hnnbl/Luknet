@@ -78,7 +78,12 @@ Plans:
   3. Footer is styled dark and consistent — the page has a cohesive end
   4. Every section triggers a visible entrance animation when scrolled into view
   5. All section texts have been reviewed and updated — no placeholder or outdated copy remains
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 04-01-PLAN.md — NewsSection: violet redesign + whileInView stagger animations (SECT-01)
+- [ ] 04-02-PLAN.md — ContactSection: violet redesign, form styling, scroll animations (SECT-02)
+- [ ] 04-03-PLAN.md — Footer violet redesign, premium copy, SECT-04 + COPY-02 confirmation pass
 
 ## Progress
 
@@ -90,4 +95,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | 1. Dark Foundation | 3/3 | Complete    | 2026-03-14 |
 | 2. Hero & Typography | 2/2 | Complete    | 2026-03-14 |
 | 3. Feature Sections | 1/2 | Complete    | 2026-03-14 |
-| 4. Completion | 0/TBD | Not started | - |
+| 4. Completion | 0/3 | Not started | - |
