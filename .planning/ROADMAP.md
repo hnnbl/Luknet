@@ -29,7 +29,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. An animated purple/violet gradient pulses visibly in the page background
   4. Floating particles are visible in the background across the full page
   5. Header uses a dark style consistent with the new theme and is fully responsive on mobile
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Global dark color palette and animation keyframes (theme.css)
+- [ ] 01-02-PLAN.md — Animated background effects component with gradient and particles
+- [ ] 01-03-PLAN.md — Header redesign with purple/violet neon aesthetic and mobile menu
 
 ### Phase 2: Hero & Typography
 **Goal**: The Hero section is the most visually impactful element on the page — a visitor landing on it sees a 3D floating element, bold headlines, and premium copy within the first second
@@ -74,7 +79,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Dark Foundation | 0/TBD | Not started | - |
+| 1. Dark Foundation | 1/3 | In Progress|  |
 | 2. Hero & Typography | 0/TBD | Not started | - |
 | 3. Feature Sections | 0/TBD | Not started | - |
 | 4. Completion | 0/TBD | Not started | - |

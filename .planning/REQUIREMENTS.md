@@ -7,8 +7,8 @@
 
 ### Theme
 
-- [ ] **THEME-01**: Página usa tema dark como padrão global (fundo #000 ou próximo)
-- [ ] **THEME-02**: Paleta primária em roxo/violeta com acentos neon
+- [x] **THEME-01**: Página usa tema dark como padrão global (fundo #000 ou próximo)
+- [x] **THEME-02**: Paleta primária em roxo/violeta com acentos neon
 - [ ] **THEME-03**: Gradiente animado roxo/violeta pulsa no background da página
 - [ ] **THEME-04**: Partículas flutuantes no background em toda a página
 
@@ -72,8 +72,8 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| THEME-01 | Phase 1 | Pending |
-| THEME-02 | Phase 1 | Pending |
+| THEME-01 | Phase 1 | Complete |
+| THEME-02 | Phase 1 | Complete |
 | THEME-03 | Phase 1 | Pending |
 | THEME-04 | Phase 1 | Pending |
 | HEAD-01 | Phase 1 | Pending |
