@@ -76,12 +76,13 @@
 | THEME-02 | Phase 1 | Pending |
 | THEME-03 | Phase 1 | Pending |
 | THEME-04 | Phase 1 | Pending |
+| HEAD-01 | Phase 1 | Pending |
+| HEAD-02 | Phase 1 | Pending |
 | HERO-01 | Phase 2 | Pending |
 | HERO-02 | Phase 2 | Pending |
 | HERO-03 | Phase 2 | Pending |
 | HERO-04 | Phase 2 | Pending |
-| HEAD-01 | Phase 1 | Pending |
-| HEAD-02 | Phase 1 | Pending |
+| COPY-01 | Phase 2 | Pending |
 | SERV-01 | Phase 3 | Pending |
 | SERV-02 | Phase 3 | Pending |
 | SERV-03 | Phase 3 | Pending |
@@ -92,7 +93,6 @@
 | SECT-02 | Phase 4 | Pending |
 | SECT-03 | Phase 4 | Pending |
 | SECT-04 | Phase 4 | Pending |
-| COPY-01 | Phase 2 | Pending |
 | COPY-02 | Phase 4 | Pending |
 
 **Coverage:**
@@ -102,4 +102,4 @@
 
 ---
 *Requirements defined: 2026-03-14*
-*Last updated: 2026-03-14 after initial definition*
+*Last updated: 2026-03-14 — traceability confirmed after roadmap creation*
