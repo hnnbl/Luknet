@@ -27,9 +27,9 @@
 
 ### Differentials
 
-- [ ] **DIFF-01**: Seção de diferenciais redesenhada com visual futurista dark
-- [ ] **DIFF-02**: Elementos da seção têm animação de entrada no scroll
-- [ ] **DIFF-03**: Copy dos diferenciais atualizado
+- [x] **DIFF-01**: Seção de diferenciais redesenhada com visual futurista dark
+- [x] **DIFF-02**: Elementos da seção têm animação de entrada no scroll
+- [x] **DIFF-03**: Copy dos diferenciais atualizado
 
 ### Header
 
@@ -86,9 +86,9 @@
 | SERV-01 | Phase 3 | Pending |
 | SERV-02 | Phase 3 | Pending |
 | SERV-03 | Phase 3 | Pending |
-| DIFF-01 | Phase 3 | Pending |
-| DIFF-02 | Phase 3 | Pending |
-| DIFF-03 | Phase 3 | Pending |
+| DIFF-01 | Phase 3 | Complete |
+| DIFF-02 | Phase 3 | Complete |
+| DIFF-03 | Phase 3 | Complete |
 | SECT-01 | Phase 4 | Pending |
 | SECT-02 | Phase 4 | Pending |
 | SECT-03 | Phase 4 | Pending |
@@ -102,4 +102,4 @@
 
 ---
 *Requirements defined: 2026-03-14*
-*Last updated: 2026-03-14 — traceability confirmed after roadmap creation*
+*Last updated: 2026-03-14 — DIFF-01, DIFF-02, DIFF-03 completed by Phase 3 Plan 02*
