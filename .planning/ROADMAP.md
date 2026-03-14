@@ -62,7 +62,11 @@ Plans:
   3. Service card copy communicates premium positioning — not placeholder or generic text
   4. Differentials section has a clearly futuristic dark visual design distinct from the previous light style
   5. Differentials items animate into view when the user scrolls to that section
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [ ] 03-01-PLAN.md — ServicesSection: holographic card treatment, CSS 3D mouse-tilt on hover, premium copy
+- [ ] 03-02-PLAN.md — DifferentialsSection: futuristic dark violet redesign, whileInView scroll animations, premium copy
 
 ### Phase 4: Completion
 **Goal**: Every section of the page is complete in the new visual system — a visitor scrolling from top to bottom experiences a consistent futuristic dark aesthetic with no legacy-styled sections remaining
@@ -85,5 +89,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 |-------|----------------|--------|-----------|
 | 1. Dark Foundation | 3/3 | Complete    | 2026-03-14 |
 | 2. Hero & Typography | 2/2 | Complete    | 2026-03-14 |
-| 3. Feature Sections | 0/TBD | Not started | - |
+| 3. Feature Sections | 0/2 | Not started | - |
 | 4. Completion | 0/TBD | Not started | - |
