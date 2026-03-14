@@ -35,10 +35,10 @@ export function Header() {
           {/* Logo */}
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => scrollToSection('home')}>
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-violet-500 to-purple-700 flex items-center justify-center shadow-[0_0_20px_rgba(124,58,237,0.5)]">
-              <span className="text-white font-bold text-xl tracking-tight">L</span>
+              <span className="text-white font-bold text-xl tracking-tight">J</span>
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-violet-400 to-purple-300 bg-clip-text text-transparent">
-              Luknet
+              JN MAKER
             </span>
           </div>
 

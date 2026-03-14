@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node \"$HOME/.claude/get-shit-done/bin/gsd-tools.cjs\" frontmatter validate \"C:\\\\Users\\\\jorda\\\\Downloads\\\\luknet\\\\Luknet-main\\\\Luknet-main\\\\.planning\\\\phases\\\\04-completion\\\\04-01-PLAN.md\" --schema plan)",
+      "Bash(node \"$HOME/.claude/get-shit-done/bin/gsd-tools.cjs\" frontmatter validate \"C:\\\\Users\\\\jorda\\\\Downloads\\\\luknet\\\\Luknet-main\\\\Luknet-main\\\\.planning\\\\phases\\\\04-completion\\\\04-02-PLAN.md\" --schema plan)",
+      "Bash(node \"$HOME/.claude/get-shit-done/bin/gsd-tools.cjs\" frontmatter validate \"C:\\\\Users\\\\jorda\\\\Downloads\\\\luknet\\\\Luknet-main\\\\Luknet-main\\\\.planning\\\\phases\\\\04-completion\\\\04-03-PLAN.md\" --schema plan)"
+    ]
+  }
+}

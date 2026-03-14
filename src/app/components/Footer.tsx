@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, Globe } from 'lucide-react';
 
 // Phase 4 complete: violet palette, whileInView animations, copy reviewed
 const footerVariants = {
@@ -31,14 +31,14 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 bg-gradient-to-br from-violet-500 to-purple-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">L</span>
+                <span className="text-white font-bold text-xl">J</span>
               </div>
               <span className="text-xl font-semibold bg-gradient-to-r from-violet-400 to-purple-500 bg-clip-text text-transparent">
-                Luknet
+                JN MAKER
               </span>
             </div>
             <p className="text-gray-400 text-sm">
-              Tecnologia sob medida para negócios que não querem ser genéricos.
+              Automação com IA, Python e n8n para negócios que não querem depender de trabalho manual.
             </p>
           </div>
 
@@ -85,40 +85,40 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-white mb-4">Serviços</h4>
             <ul className="space-y-2">
-              <li className="text-gray-400 text-sm">Desenvolvimento Web</li>
-              <li className="text-gray-400 text-sm">Sistemas Personalizados</li>
-              <li className="text-gray-400 text-sm">Design Responsivo</li>
-              <li className="text-gray-400 text-sm">Consultoria Digital</li>
+              <li className="text-gray-400 text-sm">Automação com IA</li>
+              <li className="text-gray-400 text-sm">Fluxos n8n</li>
+              <li className="text-gray-400 text-sm">Integração de APIs</li>
+              <li className="text-gray-400 text-sm">Backend Python</li>
             </ul>
           </div>
 
           {/* Social Media */}
           <div>
-            <h4 className="font-semibold text-white mb-4">Redes Sociais</h4>
+            <h4 className="font-semibold text-white mb-4">Links</h4>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://github.com/hnnbl"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/5 hover:bg-violet-600 border border-violet-500/20 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
               >
-                <Facebook size={20} className="text-white" />
+                <Github size={20} className="text-white" />
               </a>
               <a
-                href="#"
-                className="w-10 h-10 bg-white/5 hover:bg-violet-600 border border-violet-500/20 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
-              >
-                <Instagram size={20} className="text-white" />
-              </a>
-              <a
-                href="#"
+                href="https://linkedin.com/in/jordaonunes"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/5 hover:bg-violet-600 border border-violet-500/20 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
               >
                 <Linkedin size={20} className="text-white" />
               </a>
               <a
-                href="#"
+                href="https://jordaonunes.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/5 hover:bg-violet-600 border border-violet-500/20 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
               >
-                <Twitter size={20} className="text-white" />
+                <Globe size={20} className="text-white" />
               </a>
             </div>
           </div>
@@ -129,7 +129,7 @@ export function Footer() {
         <div className="border-t border-violet-500/15 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Luknet - Soluções Web. Todos os direitos reservados.
+              © {currentYear} Jordão Nunes — JN MAKER. Todos os direitos reservados.
             </p>
             <div className="flex gap-6 text-sm text-gray-400">
               <a href="#" className="hover:text-violet-300 transition-colors">

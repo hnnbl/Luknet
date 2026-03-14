@@ -4,22 +4,22 @@ import { ArrowRight, Calendar } from 'lucide-react';
 // Phase 4 complete: violet palette, whileInView animations, copy reviewed
 const newsArticles = [
   {
-    date: '15 de Março, 2026',
-    title: 'Como a transformação digital pode impulsionar seu negócio',
+    date: '10 de Março, 2026',
+    title: 'Como automatizei 80% do atendimento de um e-commerce com n8n e IA',
     summary:
-      'Descubra como a adoção de tecnologias modernas pode aumentar a eficiência e competitividade da sua empresa no mercado atual.',
+      'Um estudo de caso real: fluxo n8n + GPT-4 que classifica pedidos, responde clientes e escala promoções — sem contratar mais ninguém.',
   },
   {
-    date: '08 de Março, 2026',
-    title: 'Tendências de design web para 2026',
+    date: '02 de Março, 2026',
+    title: 'Python para automação de negócios: por onde começar em 2026',
     summary:
-      'Conheça as principais tendências de design que estão moldando a experiência do usuário e criando sites mais engajadores.',
+      'Um guia prático sobre as bibliotecas e padrões que uso no dia a dia para construir pipelines de automação robustos e de baixo custo.',
   },
   {
-    date: '01 de Março, 2026',
-    title: 'A importância da segurança em aplicações web',
+    date: '22 de Fevereiro, 2026',
+    title: 'n8n vs Zapier: qual escolher para automações de alto volume?',
     summary:
-      'Entenda por que a segurança digital é fundamental para proteger seus dados e garantir a confiança dos seus clientes.',
+      'Comparativo técnico e de custo entre as duas plataformas com base em projetos reais rodados em produção.',
   },
 ];
 
@@ -59,11 +59,11 @@ export function NewsSection() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-violet-500/10 to-purple-500/10 border border-violet-500/30 rounded-full backdrop-blur-sm mb-4">
             <div className="w-2 h-2 bg-violet-400 rounded-full animate-pulse"></div>
-            <span className="text-sm text-violet-300">Blog & Notícias</span>
+            <span className="text-sm text-violet-300">Blog & Cases</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-extrabold mb-4">
             <span className="bg-gradient-to-r from-violet-400 to-fuchsia-500 bg-clip-text text-transparent">
-              Últimas Notícias
+              Cases & Artigos
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-violet-500 to-purple-600 mx-auto rounded-full"></div>

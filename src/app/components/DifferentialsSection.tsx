@@ -29,27 +29,27 @@ const headerVariants = {
 const differentials = [
   {
     icon: Code2,
-    title: 'Stack moderna, escolhas fundamentadas',
+    title: 'Automação real, não só promessa',
     description:
-      'Não seguimos hype — escolhemos tecnologia com base em custo de manutenção, performance e longevidade. Seu sistema dura anos, não sprints.',
+      'Cada fluxo que entrego é testado em produção. Não vendo PowerPoint — entrego sistemas rodando que eliminam horas de trabalho manual por dia.',
   },
   {
     icon: Zap,
-    title: 'Performance que se mede, não se promete',
+    title: 'Velocidade de entrega sem atalhos',
     description:
-      'Lighthouse 90+, Core Web Vitals no verde, e carregamento abaixo de 1.5s. Velocidade é vantagem competitiva — tratamos assim.',
+      'Uso Python, n8n e APIs battle-tested para entregar rápido sem criar dívida técnica. Você vê resultado em dias, não em meses.',
   },
   {
     icon: Server,
-    title: 'Infraestrutura que escala com você',
+    title: 'Sistemas que rodam enquanto você dorme',
     description:
-      'Arquitetura cloud-native com autoscaling, zero-downtime deploys e disaster recovery. Preparada para 10x o tráfego de hoje.',
+      'Automações robustas com retry, alertas e monitoramento. Quando algo falha, o sistema se recupera — você nem fica sabendo.',
   },
   {
     icon: Users,
-    title: 'Parceria técnica de longo prazo',
+    title: 'Parceiro técnico, não fornecedor',
     description:
-      'Não desaparecemos após o deploy. Somos extensão da sua equipe — revisamos código, respondemos dúvidas e evoluímos o produto com você.',
+      'Entendo o seu processo antes de escrever uma linha de código. A solução é moldada ao seu negócio — não o contrário.',
   },
 ];
 
@@ -78,14 +78,13 @@ export function DifferentialsSection() {
             <span className="text-sm text-violet-300">Nossos Diferenciais</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight">
-            <span className="text-white">Por que a </span>
+            <span className="text-white">Por que trabalhar </span>
             <span className="bg-gradient-to-r from-violet-400 to-fuchsia-500 bg-clip-text text-transparent">
-              Luknet
+              comigo
             </span>
-            <span className="text-white"> é diferente</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-6">
-            Não entregamos projetos. Entregamos resultados que ficam.
+            Não entrego projetos. Entrego resultados que ficam e sistemas que trabalham por você.
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-violet-500 to-purple-600 mx-auto rounded-full"></div>
         </motion.div>

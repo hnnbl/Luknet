@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(gsd:map-codebase)",
+      "Skill(gsd:map-codebase:*)",
+      "Bash(grep -E '\\(sk-[a-zA-Z0-9]{20,}|sk_live_[a-zA-Z0-9]+|sk_test_[a-zA-Z0-9]+|ghp_[a-zA-Z0-9]{36}|gho_[a-zA-Z0-9]{36}|glpat-[a-zA-Z0-9_-]+|AKIA[A-Z0-9]{16}|xox[baprs]-[a-zA-Z0-9-]+|-----BEGIN.*PRIVATE KEY|eyJ[a-zA-Z0-9_-]+\\\\.eyJ[a-zA-Z0-9_-]+\\\\.\\)' .planning/codebase/*.md)",
+      "Bash(node \"$HOME/.claude/get-shit-done/bin/gsd-tools.cjs\" commit \"docs: map existing codebase\" --files .planning/codebase/STACK.md .planning/codebase/INTEGRATIONS.md .planning/codebase/ARCHITECTURE.md .planning/codebase/STRUCTURE.md .planning/codebase/CONVENTIONS.md .planning/codebase/TESTING.md .planning/codebase/CONCERNS.md)",
+      "Skill(gsd:new-project)",
+      "Skill(gsd:new-project:*)",
+      "WebFetch(domain:dribbble.com)",
+      "Skill(gsd:execute-phase)",
+      "Skill(gsd:execute-phase:*)",
+      "Bash(ls /c/Users/jorda/Downloads/luknet/Luknet-main/Luknet-main/.planning/phases/01-dark-foundation/*VERIFICATION*)",
+      "Skill(gsd:plan-phase)",
+      "Skill(gsd:plan-phase:*)",
+      "Bash(npm run:*)",
+      "Bash(cat /c/Users/jorda/Downloads/luknet/Luknet-main/Luknet-main/.planning/phases/02-hero-typography/*-VERIFICATION.md)",
+      "Bash(node \"$HOME/.claude/get-shit-done/bin/gsd-tools.cjs\" frontmatter validate \"/c/Users/jorda/Downloads/luknet/Luknet-main/Luknet-main/.planning/phases/03-feature-sections/03-01-PLAN.md\" --schema plan)",
+      "Bash(node \"$HOME/.claude/get-shit-done/bin/gsd-tools.cjs\" frontmatter validate \"/c/Users/jorda/Downloads/luknet/Luknet-main/Luknet-main/.planning/phases/03-feature-sections/03-02-PLAN.md\" --schema plan)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(\"c:/Users/jorda/Downloads/luknet/Luknet-main/Luknet-main/.planning/phases/03-feature-sections/03-02-SUMMARY.md\":*)",
+      "Bash(node \"$HOME/.claude/get-shit-done/bin/gsd-tools.cjs\" roadmap update-plan-progress \"03\" \"03-01\" \"complete\")",
+      "Bash(node \"$HOME/.claude/get-shit-done/bin/gsd-tools.cjs\" roadmap update-plan-progress \"03\" \"03-02\" \"complete\")",
+      "Bash(node \"$HOME/.claude/get-shit-done/bin/gsd-tools.cjs\" commit \"docs\\(04-completion\\): create phase 4 plan\" --files \".planning/phases/04-completion/04-01-PLAN.md\" \".planning/phases/04-completion/04-02-PLAN.md\" \".planning/phases/04-completion/04-03-PLAN.md\" \".planning/ROADMAP.md\")",
+      "Bash(npx tsc:*)",
+      "Bash(./node_modules/.bin/tsc --noEmit)",
+      "Bash(node_modules/.bin/vite build:*)",
+      "Bash(node \"$HOME/.claude/get-shit-done/bin/gsd-tools.cjs\" state advance-plan)"
+    ]
+  }
+}

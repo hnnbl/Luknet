@@ -172,13 +172,11 @@ export function ContactSection() {
                     <MapPin size={24} className="text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-white mb-1">Endereço</h4>
+                    <h4 className="font-semibold text-white mb-1">Localização</h4>
                     <p className="text-gray-400">
-                      Eduardo Souza – Luknet
+                      Jordão Nunes — JN MAKER
                       <br />
-                      Trav Timbó
-                      <br />
-                      Belém – PA
+                      Marabá – PA, Brasil
                     </p>
                   </div>
                 </div>
@@ -188,8 +186,15 @@ export function ContactSection() {
                     <Phone size={24} className="text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-white mb-1">Telefone</h4>
-                    <p className="text-gray-400">(91) 99192-0911</p>
+                    <h4 className="font-semibold text-white mb-1">Site</h4>
+                    <a
+                      href="https://jordaonunes.com.br"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-violet-400 hover:text-violet-300 transition-colors"
+                    >
+                      jordaonunes.com.br
+                    </a>
                   </div>
                 </div>
 
@@ -198,22 +203,25 @@ export function ContactSection() {
                     <Mail size={24} className="text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-white mb-1">Email</h4>
-                    <p className="text-gray-400">contato@luknet.com.br</p>
+                    <h4 className="font-semibold text-white mb-1">GitHub</h4>
+                    <a
+                      href="https://github.com/hnnbl"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-violet-400 hover:text-violet-300 transition-colors"
+                    >
+                      github.com/hnnbl
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Business Hours */}
+            {/* About */}
             <div className="bg-gradient-to-br from-[#0d0d1a] to-[#110d22] backdrop-blur-sm rounded-2xl p-8 border border-violet-500/20">
-              <h4 className="text-lg font-semibold text-white mb-3">Horário de Atendimento</h4>
+              <h4 className="text-lg font-semibold text-white mb-3">Sobre mim</h4>
               <p className="text-gray-400 leading-relaxed">
-                Segunda a Sexta: 9h às 18h
-                <br />
-                Sábado: 9h às 13h
-                <br />
-                Domingo: Fechado
+                Building AI-powered automation systems com Python, n8n e APIs. Backend & business automation engineer baseado em Marabá – PA.
               </p>
             </div>
           </motion.div>

@@ -33,21 +33,21 @@ export function HeroSection() {
           <motion.div variants={heroItem} className="space-y-4">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-violet-500/10 to-purple-500/10 border border-violet-500/30 rounded-full backdrop-blur-sm">
               <div className="w-2 h-2 bg-violet-400 rounded-full animate-pulse"></div>
-              <span className="text-sm text-violet-300">Software de Alta Performance</span>
+              <span className="text-sm text-violet-300">Automação com IA para Negócios</span>
             </div>
 
             {/* H1 Headline */}
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-black leading-none">
               <span className="bg-gradient-to-r from-violet-400 via-purple-400 to-fuchsia-400 bg-clip-text text-transparent">
-                Engenharia que
+                Automação que
               </span>
               <br />
-              <span className="text-white">Escala com Você</span>
+              <span className="text-white">Transforma Negócios</span>
             </h1>
 
             {/* Subheadline */}
             <p className="text-lg text-gray-300 max-w-xl leading-relaxed">
-              Construímos produtos digitais que dominam mercados. Da arquitetura ao deploy — cada linha de código pensada para converter, escalar e impressionar.
+              Sistemas de automação com IA, Python e n8n que eliminam trabalho manual, integram APIs e escalam com o seu negócio — construídos por Jordão Nunes.
             </p>
           </motion.div>
 
@@ -55,39 +55,38 @@ export function HeroSection() {
           <motion.div variants={heroItem} className="flex flex-col sm:flex-row gap-4">
             <button
               onClick={() => scrollToSection('contato')}
-              className="group px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white rounded-lg font-semibold transition-all duration-300 shadow-lg shadow-orange-500/30 hover:shadow-orange-500/50 flex items-center justify-center gap-2 relative overflow-hidden"
+              className="group px-8 py-4 bg-gradient-to-r from-violet-600 to-purple-700 hover:from-violet-500 hover:to-purple-600 text-white rounded-lg font-semibold transition-all duration-300 shadow-lg shadow-violet-500/30 hover:shadow-violet-500/50 flex items-center justify-center gap-2 relative overflow-hidden"
             >
               <span className="relative z-10">Iniciar Projeto</span>
               <ArrowRight size={20} className="relative z-10 group-hover:translate-x-1 transition-transform" />
-              <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity"></div>
             </button>
             <button
               onClick={() => scrollToSection('servicos')}
               className="px-8 py-4 border-2 border-violet-500/50 hover:border-violet-400 text-white rounded-lg font-semibold transition-all duration-300 hover:bg-violet-500/10 backdrop-blur-sm"
             >
-              Ver Portfólio
+              Ver Serviços
             </button>
           </motion.div>
 
           {/* Feature Chips */}
           <motion.div variants={heroItem} className="flex flex-wrap gap-6 pt-4">
             <div className="flex items-center gap-2 text-gray-300 group cursor-default">
-              <div className="p-2 bg-orange-500/10 rounded-lg border border-orange-500/30 group-hover:bg-orange-500/20 transition-colors">
-                <Zap size={20} className="text-orange-500" />
-              </div>
-              <span>Performance de elite</span>
-            </div>
-            <div className="flex items-center gap-2 text-gray-300 group cursor-default">
               <div className="p-2 bg-violet-500/10 rounded-lg border border-violet-500/30 group-hover:bg-violet-500/20 transition-colors">
-                <TrendingUp size={20} className="text-violet-400" />
+                <Zap size={20} className="text-violet-400" />
               </div>
-              <span>Arquitetura escalável</span>
+              <span>Python & n8n</span>
             </div>
             <div className="flex items-center gap-2 text-gray-300 group cursor-default">
               <div className="p-2 bg-purple-500/10 rounded-lg border border-purple-500/30 group-hover:bg-purple-500/20 transition-colors">
-                <Shield size={20} className="text-purple-400" />
+                <TrendingUp size={20} className="text-purple-400" />
               </div>
-              <span>Segurança de produção</span>
+              <span>Integração de APIs</span>
+            </div>
+            <div className="flex items-center gap-2 text-gray-300 group cursor-default">
+              <div className="p-2 bg-fuchsia-500/10 rounded-lg border border-fuchsia-500/30 group-hover:bg-fuchsia-500/20 transition-colors">
+                <Shield size={20} className="text-fuchsia-400" />
+              </div>
+              <span>IA aplicada a negócios</span>
             </div>
           </motion.div>
         </motion.div>
@@ -153,13 +152,13 @@ export function HeroSection() {
 
                 {/* Floating data badges */}
                 <div className="absolute top-10 right-10 px-3 py-2 bg-violet-500/10 backdrop-blur-md border border-violet-500/30 rounded-lg">
-                  <div className="text-xs text-violet-300 font-mono">99.9% Uptime</div>
+                  <div className="text-xs text-violet-300 font-mono">n8n Automation</div>
                 </div>
                 <div className="absolute bottom-16 left-10 px-3 py-2 bg-violet-500/10 backdrop-blur-md border border-violet-500/30 rounded-lg">
                   <div className="text-xs text-violet-300 font-mono">AI-Powered</div>
                 </div>
                 <div className="absolute top-1/2 right-0 px-3 py-2 bg-violet-500/10 backdrop-blur-md border border-violet-500/30 rounded-lg">
-                  <div className="text-xs text-violet-300 font-mono">Zero Downtime</div>
+                  <div className="text-xs text-violet-300 font-mono">Python & APIs</div>
                 </div>
               </div>
             </div>

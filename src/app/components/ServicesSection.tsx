@@ -1,30 +1,30 @@
 import { useState } from 'react';
-import { Headphones, FileText, Clock, Shield } from 'lucide-react';
+import { Bot, Workflow, Plug, Code2 } from 'lucide-react';
 
 const services = [
   {
-    icon: Headphones,
-    title: 'Suporte Dedicado',
-    description: 'Canal direto com a equipe técnica. Respondemos em horas, não dias — porque cada minuto parado tem custo.',
-    color: 'from-violet-500 to-cyan-500',
+    icon: Bot,
+    title: 'Automação com IA',
+    description: 'Agentes inteligentes que trabalham 24/7 — triagem de leads, respostas automáticas, decisões baseadas em dados.',
+    color: 'from-violet-500 to-purple-600',
   },
   {
-    icon: FileText,
-    title: 'Documentação Viva',
-    description: 'Código e documentação evoluem juntos. Sua equipe onboard em dias, não semanas.',
-    color: 'from-purple-500 to-pink-500',
+    icon: Workflow,
+    title: 'Fluxos n8n',
+    description: 'Workflows visuais que conectam seus sistemas sem escrever uma linha de código. Do CRM ao WhatsApp em minutos.',
+    color: 'from-purple-500 to-fuchsia-600',
   },
   {
-    icon: Clock,
-    title: 'Entregas no Prazo',
-    description: 'Roadmap transparente, sprints curtos, zero surpresas. Visibilidade total do progresso em tempo real.',
-    color: 'from-orange-500 to-red-500',
+    icon: Plug,
+    title: 'Integração de APIs',
+    description: 'Conectamos qualquer plataforma — ERP, e-commerce, WhatsApp, bancos — em pipelines robustos e confiáveis.',
+    color: 'from-fuchsia-500 to-violet-600',
   },
   {
-    icon: Shield,
-    title: 'Segurança por Padrão',
-    description: 'OWASP Top 10, auditorias regulares, criptografia end-to-end. Segurança não é feature — é fundação.',
-    color: 'from-green-500 to-emerald-500',
+    icon: Code2,
+    title: 'Backend Python',
+    description: 'Scripts, bots e serviços back-end em Python que automatizam processos repetitivos e liberam sua equipe.',
+    color: 'from-violet-600 to-purple-500',
   },
 ];
 
@@ -58,12 +58,12 @@ export function ServicesSection() {
           </div>
           <h2 className="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight">
             <span className="bg-gradient-to-r from-violet-400 to-purple-500 bg-clip-text text-transparent">
-              Serviços
+              O que
             </span>{' '}
-            <span className="text-white">Premium</span>
+            <span className="text-white">eu construo</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-6">
-            Soluções construídas para durar — não para entregar e esquecer.
+            Automações que eliminam trabalho manual e sistemas que escalam com o seu negócio.
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full"></div>
         </div>
