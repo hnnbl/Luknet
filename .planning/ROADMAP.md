@@ -46,7 +46,11 @@ Plans:
   3. Hero copy communicates Luknet as a premium tech company (not generic "we build software")
   4. Hero entrance animation is impactful on page load — noticeably dramatic, not a subtle fade
   5. Bold typographic weight is consistent across all section headlines on the page
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — HeroSection rewrite with motion entrance, CSS 3D floating element, and premium copy
+- [ ] 02-02-PLAN.md — Typography system: bold base heading weights and section h2 upgrade
 
 ### Phase 3: Feature Sections
 **Goal**: The Services and Differentials sections reinforce the futuristic brand with interactive 3D card effects and scroll-triggered animations, making the key sales content as visually premium as the Hero
@@ -80,6 +84,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Dark Foundation | 3/3 | Complete    | 2026-03-14 |
-| 2. Hero & Typography | 0/TBD | Not started | - |
+| 2. Hero & Typography | 0/2 | Not started | - |
 | 3. Feature Sections | 0/TBD | Not started | - |
 | 4. Completion | 0/TBD | Not started | - |
