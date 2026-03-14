@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 01-dark-foundation-02-PLAN.md
-last_updated: "2026-03-14T03:54:20.327Z"
+stopped_at: Completed 02-hero-typography-02-PLAN.md
+last_updated: "2026-03-14T04:06:15.107Z"
 last_activity: 2026-03-14 — Roadmap created, ready for Phase 1 planning
 progress:
   total_phases: 4
-  completed_phases: 1
-  total_plans: 3
-  completed_plans: 3
+  completed_phases: 2
+  total_plans: 5
+  completed_plans: 5
   percent: 33
 ---
 
@@ -53,6 +53,8 @@ Progress: [███░░░░░░░] 33%
 | Phase 01-dark-foundation P01 | 2min | 1 tasks | 1 files |
 | Phase 01-dark-foundation P03 | 3min | 1 tasks | 1 files |
 | Phase 01-dark-foundation P02 | 1min | 2 tasks | 2 files |
+| Phase 02-hero-typography P01 | 5min | 1 tasks | 1 files |
+| Phase 02-hero-typography P02 | 4min | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -70,6 +72,10 @@ Recent decisions affecting current work:
 - [Phase 01-dark-foundation]: Sliding underline on nav links via pure CSS group-hover span — no JS needed for hover effect
 - [Phase 01-dark-foundation]: Hardcoded PARTICLES array for consistent render across React re-renders
 - [Phase 01-dark-foundation]: App.tsx root changed to bg-black — animated gradient lives in BackgroundEffects component
+- [Phase 02-hero-typography]: CSS 3D transforms + motion/react used for 3D orb — no Three.js needed, bundle stays lean
+- [Phase 02-hero-typography]: animate-float wraps full 3D orb container so rings, sphere, and badges float as one unit
+- [Phase 02-hero-typography]: font-extrabold (800) for section h2 over font-bold (700) — heavier weight reads as premium at large display sizes
+- [Phase 02-hero-typography]: ServicesSection gradient changed from-blue-400 to from-violet-400 to align with violet brand palette
 
 ### Pending Todos
 
@@ -81,6 +87,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-14T03:49:42.473Z
-Stopped at: Completed 01-dark-foundation-02-PLAN.md
+Last session: 2026-03-14T04:06:15.105Z
+Stopped at: Completed 02-hero-typography-02-PLAN.md
 Resume file: None
