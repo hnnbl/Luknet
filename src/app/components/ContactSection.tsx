@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MapPin, Phone, Mail, Send } from 'lucide-react';
+import { MapPin, Phone, Mail, Send, Globe, Instagram } from 'lucide-react';
 import { motion } from 'motion/react';
 
 // Phase 4 complete: violet palette, whileInView animations, copy reviewed
@@ -172,11 +172,11 @@ export function ContactSection() {
                     <MapPin size={24} className="text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-white mb-1">Localização</h4>
+                    <h4 className="font-semibold text-white mb-1">Endereço</h4>
                     <p className="text-gray-400">
-                      Jordão Nunes — JN MAKER
+                      Jordão Nunes
                       <br />
-                      Marabá – PA, Brasil
+                      Marabá – PA
                     </p>
                   </div>
                 </div>
@@ -186,14 +186,9 @@ export function ContactSection() {
                     <Phone size={24} className="text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-white mb-1">Site</h4>
-                    <a
-                      href="https://jordaonunes.com.br"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-violet-400 hover:text-violet-300 transition-colors"
-                    >
-                      jordaonunes.com.br
+                    <h4 className="font-semibold text-white mb-1">Telefone</h4>
+                    <a href="tel:+559492112727" className="text-gray-400 hover:text-violet-300 transition-colors">
+                      (94) 99211-2727
                     </a>
                   </div>
                 </div>
@@ -203,14 +198,33 @@ export function ContactSection() {
                     <Mail size={24} className="text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-white mb-1">GitHub</h4>
-                    <a
-                      href="https://github.com/hnnbl"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-violet-400 hover:text-violet-300 transition-colors"
-                    >
-                      github.com/hnnbl
+                    <h4 className="font-semibold text-white mb-1">Email</h4>
+                    <a href="mailto:jordao@hnnbl.com.br" className="text-violet-400 hover:text-violet-300 transition-colors">
+                      jordao@hnnbl.com.br
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-violet-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Globe size={24} className="text-white" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-white mb-1">Site</h4>
+                    <a href="https://www.hnnbl.com.br" target="_blank" rel="noopener noreferrer" className="text-violet-400 hover:text-violet-300 transition-colors">
+                      www.hnnbl.com.br
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-violet-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Instagram size={24} className="text-white" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-white mb-1">Instagram</h4>
+                    <a href="https://instagram.com/jordaonunes" target="_blank" rel="noopener noreferrer" className="text-violet-400 hover:text-violet-300 transition-colors">
+                      @jordaonunes
                     </a>
                   </div>
                 </div>
@@ -219,9 +233,9 @@ export function ContactSection() {
 
             {/* About */}
             <div className="bg-gradient-to-br from-[#0d0d1a] to-[#110d22] backdrop-blur-sm rounded-2xl p-8 border border-violet-500/20">
-              <h4 className="text-lg font-semibold text-white mb-3">Sobre mim</h4>
+              <h4 className="text-lg font-semibold text-white mb-3">Disponibilidade</h4>
               <p className="text-gray-400 leading-relaxed">
-                Building AI-powered automation systems com Python, n8n e APIs. Backend & business automation engineer baseado em Marabá – PA.
+                Aberto a novos projetos e parcerias. Respondo em até 24h por email ou WhatsApp.
               </p>
             </div>
           </motion.div>

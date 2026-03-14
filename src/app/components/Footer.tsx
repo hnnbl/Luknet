@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Github, Linkedin, Globe } from 'lucide-react';
+import { Github, Instagram, Globe } from 'lucide-react';
 
 // Phase 4 complete: violet palette, whileInView animations, copy reviewed
 const footerVariants = {
@@ -105,15 +105,15 @@ export function Footer() {
                 <Github size={20} className="text-white" />
               </a>
               <a
-                href="https://linkedin.com/in/jordaonunes"
+                href="https://instagram.com/jordaonunes"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/5 hover:bg-violet-600 border border-violet-500/20 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
               >
-                <Linkedin size={20} className="text-white" />
+                <Instagram size={20} className="text-white" />
               </a>
               <a
-                href="https://jordaonunes.com.br"
+                href="https://www.hnnbl.com.br"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/5 hover:bg-violet-600 border border-violet-500/20 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
