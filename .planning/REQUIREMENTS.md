@@ -9,8 +9,8 @@
 
 - [x] **THEME-01**: Página usa tema dark como padrão global (fundo #000 ou próximo)
 - [x] **THEME-02**: Paleta primária em roxo/violeta com acentos neon
-- [ ] **THEME-03**: Gradiente animado roxo/violeta pulsa no background da página
-- [ ] **THEME-04**: Partículas flutuantes no background em toda a página
+- [x] **THEME-03**: Gradiente animado roxo/violeta pulsa no background da página
+- [x] **THEME-04**: Partículas flutuantes no background em toda a página
 
 ### Hero
 
@@ -33,8 +33,8 @@
 
 ### Header
 
-- [ ] **HEAD-01**: Header redesenhado com estilo dark e coerente com o novo tema
-- [ ] **HEAD-02**: Header mantém responsividade mobile
+- [x] **HEAD-01**: Header redesenhado com estilo dark e coerente com o novo tema
+- [x] **HEAD-02**: Header mantém responsividade mobile
 
 ### Remaining Sections
 
@@ -74,10 +74,10 @@
 |-------------|-------|--------|
 | THEME-01 | Phase 1 | Complete |
 | THEME-02 | Phase 1 | Complete |
-| THEME-03 | Phase 1 | Pending |
-| THEME-04 | Phase 1 | Pending |
-| HEAD-01 | Phase 1 | Pending |
-| HEAD-02 | Phase 1 | Pending |
+| THEME-03 | Phase 1 | Complete |
+| THEME-04 | Phase 1 | Complete |
+| HEAD-01 | Phase 1 | Complete |
+| HEAD-02 | Phase 1 | Complete |
 | HERO-01 | Phase 2 | Pending |
 | HERO-02 | Phase 2 | Pending |
 | HERO-03 | Phase 2 | Pending |

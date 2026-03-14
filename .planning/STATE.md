@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 01-dark-foundation-01-PLAN.md
-last_updated: "2026-03-14T03:46:44.258Z"
+stopped_at: Completed 01-dark-foundation-02-PLAN.md
+last_updated: "2026-03-14T03:49:42.476Z"
 last_activity: 2026-03-14 — Roadmap created, ready for Phase 1 planning
 progress:
   total_phases: 4
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 3
-  completed_plans: 1
+  completed_plans: 3
   percent: 33
 ---
 
@@ -51,6 +51,8 @@ Progress: [███░░░░░░░] 33%
 
 *Updated after each plan completion*
 | Phase 01-dark-foundation P01 | 2min | 1 tasks | 1 files |
+| Phase 01-dark-foundation P03 | 3min | 1 tasks | 1 files |
+| Phase 01-dark-foundation P02 | 1min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -64,6 +66,10 @@ Recent decisions affecting current work:
 - Impactful animations, not subtle (user explicitly wants drama)
 - Keep existing React + TypeScript + Vite + Tailwind stack (motion already installed)
 - [Phase 01-dark-foundation]: Pure black (#000000) background with violet (#7c3aed) accent — always-dark palette with neon tokens, .dark block removed
+- [Phase 01-dark-foundation]: AnimatePresence mode=wait used for hamburger icon swap — clean rotate transition before entrance
+- [Phase 01-dark-foundation]: Sliding underline on nav links via pure CSS group-hover span — no JS needed for hover effect
+- [Phase 01-dark-foundation]: Hardcoded PARTICLES array for consistent render across React re-renders
+- [Phase 01-dark-foundation]: App.tsx root changed to bg-black — animated gradient lives in BackgroundEffects component
 
 ### Pending Todos
 
@@ -75,6 +81,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-14T03:46:44.255Z
-Stopped at: Completed 01-dark-foundation-01-PLAN.md
+Last session: 2026-03-14T03:49:42.473Z
+Stopped at: Completed 01-dark-foundation-02-PLAN.md
 Resume file: None
