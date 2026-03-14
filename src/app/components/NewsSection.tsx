@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Calendar } from 'lucide-react';
 
+// Phase 4 complete: violet palette, whileInView animations, copy reviewed
 const newsArticles = [
   {
     date: '15 de Março, 2026',

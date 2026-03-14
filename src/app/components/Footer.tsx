@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
 
+// Phase 4 complete: violet palette, whileInView animations, copy reviewed
 const footerVariants = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: 'easeOut' } },
